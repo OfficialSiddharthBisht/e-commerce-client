@@ -11,7 +11,7 @@ function Header() {
                 <div>
                     <ul id="navbar">
                         <li>
-                            <a className="active" 
+                            <a 
                         onClick={()=>{
                             navigate("/")
                         }}

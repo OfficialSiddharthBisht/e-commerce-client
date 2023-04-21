@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
+
+    const navigate = useNavigate();
+
     return (
         <div>
             <section id="hero">
@@ -8,7 +12,15 @@ function Home() {
                 <h2>Super value deals</h2>
                 <h1>on all products</h1>
                 <p>Save more with coupons &amp; up to 70% off!</p>
-                <button><a href="shop.html">Shop Now</a></button>
+                <button>
+                    <a 
+                        onClick={()=>{
+                            navigate("/shop")
+                        }}
+                    >
+                        Shop Now
+                    </a>
+                </button>
             </section>
             <section id="feature" className="section-p1">
                 <div className="fe-box">

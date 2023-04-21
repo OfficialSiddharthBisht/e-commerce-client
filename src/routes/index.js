@@ -5,9 +5,11 @@ import AuthMainLayout from "../layout/AuthLayout";
 import MainLayout from "../layout/MainLayout";
 import Login from '../pages/auth/Login';
 import Signup from '../pages/auth/Signup';
-import Home from '../pages/home/Home';
 import Page404 from '../pages/lost/Page404';
 import Page500 from '../pages/lost/Page500';
+
+import Home from '../pages/home/Home';
+import Shop from "../pages/home/Shop";
 // pages import for routing like login signup 404 and others 
 
 
@@ -23,10 +25,10 @@ export default function Router() {
                     path: "",
                     element: <Home />,
                 },
-                // {
-                //     path: "category",
-                //     element: <Category />,
-                // },
+                {
+                    path: "shop",
+                    element: <Shop />,
+                },
             ],
         },
 
