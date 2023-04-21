@@ -7,7 +7,11 @@ function Header() {
 
     return (
         <section id="header">
-                <a href="#"> <img src="img/logo.png" className="logo" alt /></a>
+                <a 
+                onClick={()=>{
+                    navigate("/")
+                }}
+                > <img src="img/logo.png" className="logo" alt /></a>
                 <div>
                     <ul id="navbar">
                         <li>
@@ -36,16 +40,16 @@ function Header() {
                         <li>
                             <a
                             onClick={()=>{
-                                navigate("/")
+                                navigate("/login")
                             }}
-                            >Contact</a>
+                            >Login</a>
                         </li>
                         <li>
                             <a 
                             onClick={()=>{
-                                navigate("/")
+                                navigate("/signup")
                             }}
-                            >Login / Sign Up</a>
+                            >Sign Up</a>
                         </li>
                         <li>
                             <a href="cart.html">
