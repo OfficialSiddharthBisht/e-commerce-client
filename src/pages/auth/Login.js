@@ -33,7 +33,7 @@ function Login() {
 
   useEffect(() => {
     if (localStorage.getItem("accessToken", null) !== null && localStorage.getItem("accessToken", null) !== undefined) {
-      window.open("/dashboard", "_self");
+      window.open("/", "_self");
     }
   }, []);
 

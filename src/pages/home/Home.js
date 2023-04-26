@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { useNavigate } from 'react-router-dom'
+import MetaData from '../../layout/MetaData';
 
 function Home() {
 
     const navigate = useNavigate();
 
     return (
-        <div>
+        <Fragment>
+            <MetaData title={"Oestin Store | Home"} />
             <section id="hero">
                 <h4>Trade-in-offer</h4>
                 <h2>Super value deals</h2>
@@ -226,7 +228,7 @@ function Home() {
                     <button className="normal">Sign Up</button>
                 </div>
             </section>
-        </div>
+        </Fragment>
     )
 }
 
