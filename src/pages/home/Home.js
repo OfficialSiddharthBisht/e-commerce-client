@@ -26,36 +26,36 @@ function Home() {
             </section>
             <section id="feature" className="section-p1">
                 <div className="fe-box">
-                    <img src="img/features/f1.png" alt />
+                    <img src="img/features/f1.png" alt="product image" />
                     <h6>Free Shipping</h6>
                 </div>
                 <div className="fe-box">
-                    <img src="img/features/f2.png " alt />
+                    <img src="img/features/f2.png " alt="product image" />
                     <h6>Online Order</h6>
                 </div>
                 <div className="fe-box">
-                    <img src="img/features/f3.png" alt />
+                    <img src="img/features/f3.png" alt="product image" />
                     <h6>Save Money</h6>
                 </div>
                 <div className="fe-box">
-                    <img src="img/features/f4.png" alt />
+                    <img src="img/features/f4.png" alt="product image" />
                     <h6>Promotions</h6>
                 </div>
                 <div className="fe-box">
-                    <img src="img/features/f5.png" alt />
+                    <img src="img/features/f5.png" alt="product image" />
                     <h6>Happy Sell</h6>
                 </div>
                 <div className="fe-box">
-                    <img src="img/features/f1.png" alt />
+                    <img src="img/features/f1.png" alt= "product image" />
                     <h6>F24/7 Support</h6>
                 </div>
             </section>
             <section id="product1" className="section-p1">
                 <h2>Featured Products</h2>
                 <p>Summer Collection New Modern Design</p>
-                <div className="pro-container" onclick="window.location.href='sproduct.html';">
+                <div className="pro-container">
                     <div className="pro">
-                        <img src="./../img/products/f1.jpg" alt />
+                        <img src="./../img/products/f1.jpg" alt= "image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -71,7 +71,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart" />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f2.jpg" alt />
+                        <img src="img/products/f2.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -87,7 +87,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart" />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f3.jpg" alt />
+                        <img src="img/products/f3.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -103,7 +103,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart " />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f4.jpg" alt />
+                        <img src="img/products/f4.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -119,7 +119,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart" />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f5.jpg" alt />
+                        <img src="img/products/f5.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -135,7 +135,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart" />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f6.jpg" alt />
+                        <img src="img/products/f6.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -151,7 +151,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart" />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f7.jpg" alt />
+                        <img src="img/products/f7.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -167,7 +167,7 @@ function Home() {
                         <a href="#" className="fal fa-bag-shopping cart" />
                     </div>
                     <div className="pro">
-                        <img src="img/products/f8.jpg" alt />
+                        <img src="img/products/f8.jpg" alt="image" />
                         <div className="des">
                             <span>adidas</span>
                             <h5>Cartoon Astronaut T-Shirts</h5>

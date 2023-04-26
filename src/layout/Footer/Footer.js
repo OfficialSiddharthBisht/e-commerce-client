@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className="section-p1">
                 <div className="col">
-                    <img className="logo" src="img/logo.svg" alt />
+                    <img className="logo" src="img/logo.svg" alt= "oestin store" />
                     <h4>Contact</h4>
                     <p><strong>Address:</strong> Oestin, Mallital Nainital, Uttrakhand ,India</p>
                     <p><strong>Phone:</strong> (+91) 8077 30 5268</p>
@@ -39,11 +39,11 @@ function Footer() {
                     <h4>Install App</h4>
                     <p>From App Store or Google Play</p>
                     <div className="row">
-                        <img src="img/pay/app.jpg" alt />
-                        <img src="img/pay/play.jpg" alt />
+                        <img src="img/pay/app.jpg" alt="image" />
+                        <img src="img/pay/play.jpg" alt="image" />
                     </div>
                     <p>Secured Payment Gateways</p>
-                    <img src="img/pay/pay.png " alt />
+                    <img src="img/pay/pay.png " alt="image" />
                 </div>
                 <div className="copyright">
                     <p>2022 @Siddharth Bisht</p>
