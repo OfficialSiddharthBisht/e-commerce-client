@@ -11,7 +11,7 @@ function Header() {
                 onClick={()=>{
                     navigate("/")
                 }}
-                > <img src="img/logo.png" className="logo" alt /></a>
+                > <img src="img/logo.svg" className="logo" alt /></a>
                 <div>
                     <ul id="navbar">
                         <li>

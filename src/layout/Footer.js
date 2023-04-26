@@ -4,11 +4,10 @@ function Footer() {
     return (
         <footer className="section-p1">
                 <div className="col">
-                    <img className="logo" src="img/logo.png" alt />
+                    <img className="logo" src="img/logo.svg" alt />
                     <h4>Contact</h4>
-                    <p><strong>Address:</strong> 562 wellington Road, Street 32, San Fransisco</p>
-                    <p><strong>Phone:</strong>+01 2222 365 / (+91) 01 2345 679</p>
-                    <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat </p>
+                    <p><strong>Address:</strong> Oestin, Mallital Nainital, Uttrakhand ,India</p>
+                    <p><strong>Phone:</strong> (+91) 8077 30 5268</p>
                     <div className="follow">
                         <h4>Follow us</h4>
                         <div className="icon">
@@ -47,7 +46,7 @@ function Footer() {
                     <img src="img/pay/pay.png " alt />
                 </div>
                 <div className="copyright">
-                    <p>0 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+                    <p>2022 @Siddharth Bisht</p>
                 </div>
             </footer>
     )
