@@ -1,10 +1,17 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import MetaData from '../../layout/MetaData';
+import {getProduct} from '../../actions/productAction'
+import {useSelector, useDispatch} from 'react-redux'
 
 function Home() {
 
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    useEffect(()=>{
+        dispatch(getProduct());
+    },[dispatch])
 
     return (
         <Fragment>
