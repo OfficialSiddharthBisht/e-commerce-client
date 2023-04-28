@@ -6,27 +6,6 @@ import { useSelector, useDispatch } from "react-redux";
 import Product from "./Product";
 import Loader from "../../layout/Loader/Loader";
 
-const product = {
-  name: "I phone 7",
-  images: [
-    {
-      url: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5581/5581597cv11d.jpg",
-    },
-  ],
-  description: "some random text here",
-  price: "Rs 4000",
-  _id: "siddharth",
-};
-const FeaturedProducts = ({products}) =>{
-    return(
-    <div className="pro-container">
-            {
-              products && products.map((product) => {
-                <Product key={product._id} product={product} />;
-              })}
-          </div>
-    )
-  }
 function Home() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -39,7 +18,6 @@ function Home() {
     }
     dispatch(getProducts());
   }, [dispatch, error]);
-
 
   return (
     <Fragment>
@@ -88,11 +66,18 @@ function Home() {
       <section id="product1" className="section-p1">
         <h2>Featured Products</h2>
         <p>Summer Collection New Modern Design</p>
-        {loading ? (
-          <Loader />
-        ) : (
-          <FeaturedProducts products= {products} />
-        )}
+        <div className="pro-container">
+        {
+          loading ?(
+            <Loader />
+          ):
+          (
+        products.map((product)=>(
+          <Product key={product._id} product={product} />
+        ))
+          )
+        }
+        </div>
       </section>
       <section id="banner" className="section-m1">
         <h4>Repair Services</h4>
