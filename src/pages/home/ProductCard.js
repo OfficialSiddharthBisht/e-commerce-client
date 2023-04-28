@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Product = ({ product ,key }) => {
+const Product = ({ product }) => {
   return (
-    <Link className="pro" key={key} to={`/product/${product._id}`}>
-      <img src={"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5581/5581597cv11d.jpg"} />
+    <Link className="pro" to={`/product/${product._id}`}>
+      <img src={"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5581/5581597cv11d.jpg"} alt= {product.name}/>
       <div className="des">
         <span>{product.name}</span>
         <h5>{product.description}</h5>
