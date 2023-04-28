@@ -10,6 +10,7 @@ import Page500 from '../pages/lost/Page500';
 
 import Home from '../pages/home/Home';
 import Shop from "../pages/home/Shop";
+import ProductDetail from "../pages/productDetails/ProductDetail";
 // pages import for routing like login signup 404 and others 
 
 
@@ -29,6 +30,10 @@ export default function Router() {
                     path: "shop",
                     element: <Shop />,
                 },
+                {
+                    path: "product/:id",
+                    element : <ProductDetail />
+                }
             ],
         },
 

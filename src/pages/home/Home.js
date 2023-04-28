@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import MetaData from "../../layout/MetaData";
 import { clearErrors, getProducts } from "../../actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
-import Product from "./Product";
+import Product from "./ProductCard";
 import Loader from "../../layout/Loader/Loader";
 
 function Home() {
