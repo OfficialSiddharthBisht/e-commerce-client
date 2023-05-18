@@ -6,14 +6,15 @@ import { useSelector, useDispatch } from "react-redux";
 import Product from "./ProductCard";
 import Loader from "../../layout/Loader/Loader";
 
+
 function Home() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { loading, error, products } = useSelector((state) => state.products);
   useEffect(() => {
     if (error) {
-    //   alert.error(error);
-      console.log("error",error);
+      //   alert.error(error);
+      console.log("error", error);
       dispatch(clearErrors());
     }
     dispatch(getProducts());
@@ -67,16 +68,13 @@ function Home() {
         <h2>Featured Products</h2>
         <p>Summer Collection New Modern Design</p>
         <div className="pro-container">
-        {
-          loading ?(
+          {loading ? (
             <Loader />
-          ):
-          (
-        products.map((product)=>(
-          <Product key={product._id} product={product} />
-        ))
-          )
-        }
+          ) : (
+            products.map((product) => (
+              <Product key={product._id} product={product} />
+            ))
+          )}
         </div>
       </section>
       <section id="banner" className="section-m1">
@@ -118,9 +116,7 @@ function Home() {
       <section id="newsletter" className="section-p1">
         <div className="newstext">
           <h4>Sign Up For Newsletters</h4>
-          <p>
-            Get E-mail updates about our shop and <span>special offers.</span>
-          </p>
+          Get E-mail updates about our shop and <span>special offers.</span>
         </div>
         <div className="form">
           <input type="text" placeholder="Your email address" />
